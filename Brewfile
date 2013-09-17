@@ -3,6 +3,7 @@
 
 # Programming
 brew 'scala'
+brew 'sbt'
 brew 'go'
 brew 'r'
 brew 'scala'
@@ -38,6 +39,7 @@ brew 'git-flow'
 brew 'hub'
 brew 'tig'
 brew 'subversion'
+brew 'mercurial'
 
 
 # DB
