@@ -1,12 +1,13 @@
 # vim: ft=ruby
 
+tap 'phinze/homebrew-cask'
+brew 'brew-cask'
 
 # Programming
 brew 'scala'
 brew 'sbt'
 brew 'go'
 brew 'r'
-brew 'scala'
 brew 'lua'
 brew 'ruby'
 brew 'node'
@@ -44,6 +45,7 @@ brew 'mercurial'
 
 # DB
 brew 'mysql'
+brew 'postgresql'
 brew 'sqlite'
 brew 'redis'
 brew 'mongodb'
