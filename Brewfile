@@ -3,6 +3,10 @@
 tap 'phinze/homebrew-cask'
 brew 'brew-cask'
 
+# casks
+cask 'google-chrome'
+
+
 # Programming
 brew 'scala'
 brew 'sbt'
@@ -17,6 +21,7 @@ brew 'node'
 brew 'coreutils'
 brew 'nkf'
 brew 'tree'
+brew 'pstree'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'zsh-lovers'
@@ -32,7 +37,6 @@ brew 'qt'
 brew 'graphviz'
 brew 'macvim'
 brew 'vim'
-
 
 # SCM
 brew 'git'
@@ -56,11 +60,13 @@ brew 'libxml2'
 brew 'libyaml'
 brew 'libxslt'
 
+# search engine
+brew 'elasticsearch'
 
 # nettle      pcre    readline
 # apple-gcc42  cscope  geoip    gnutls    icu4c   libgcrypt libtasn1     pixman
 # autoconf     gettext     libgpg-error libtiff   pkg-config
 # automake     erlang-r16  gfortran    intltool   libgsf libtool   mpfr    openssl     portaudio
-# cairo      fontconfig  isl   libiconv msgpack  openssl098  pstree    s3cmd
+# cairo      fontconfig  isl   libiconv msgpack  openssl098      s3cmd
 # cloog      fontforge    jpeg   libksba    p11-kit     s3sync
 # cmake      freetype  glib    libevent   libmpc    neon    pango
