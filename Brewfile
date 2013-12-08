@@ -15,6 +15,7 @@ brew 'r'
 brew 'lua'
 brew 'ruby'
 brew 'node'
+brew 'python'
 
 
 # Tools
