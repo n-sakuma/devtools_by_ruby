@@ -3,19 +3,22 @@
 tap 'phinze/homebrew-cask'
 brew 'brew-cask'
 
+tap 'homebrew/science'
+
 # casks
-cask 'google-chrome'
+# cask 'google-chrome'
 
 
 # Programming
 brew 'scala'
 brew 'sbt'
 brew 'go'
-brew 'r'
 brew 'lua'
 brew 'ruby'
 brew 'node'
 brew 'python'
+# brew 'R'
+# brew 'gfortran' # depends r
 
 
 # Tools
@@ -53,21 +56,24 @@ brew 'mysql'
 brew 'postgresql'
 brew 'sqlite'
 brew 'redis'
-brew 'mongodb'
-brew 'groonga'
+# brew 'mongodb'
+# brew 'groonga'
 
-# libs
+# libs, build tool
 brew 'libxml2'
 brew 'libyaml'
 brew 'libxslt'
+brew 'autoconf'
+brew 'automake'
+brew 'apple-gcc42'
 
 # search engine
 brew 'elasticsearch'
 
 # nettle      pcre    readline
-# apple-gcc42  cscope  geoip    gnutls    icu4c   libgcrypt libtasn1     pixman
-# autoconf     gettext     libgpg-error libtiff   pkg-config
-# automake     erlang-r16  gfortran    intltool   libgsf libtool   mpfr    openssl     portaudio
+#  cscope  geoip    gnutls    icu4c   libgcrypt libtasn1     pixman
+#  gettext     libgpg-error libtiff   pkg-config
+#  erlang-r16      intltool   libgsf libtool   mpfr    openssl     portaudio
 # cairo      fontconfig  isl   libiconv msgpack  openssl098      s3cmd
 # cloog      fontforge    jpeg   libksba    p11-kit     s3sync
 # cmake      freetype  glib    libevent   libmpc    neon    pango
