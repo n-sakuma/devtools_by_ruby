@@ -1,12 +1,7 @@
 # vim: ft=ruby
 
-# tap phinze/homebrew-cask
-# install 'brew-cask'
-# 
-# tap homebrew/science
-#
-# # casks
-# cask 'google-chrome'
+tap 'homebrew/science'
+tap 'homebrew/binary'
 
 
 # Programming
@@ -19,7 +14,6 @@ install 'node'
 install 'python'
 install 'gfortran' # depends r
 install 'R'  # tap homebrew/science
-
 
 # Tools
 install 'coreutils'
@@ -41,6 +35,7 @@ install 'qt'
 install 'graphviz'
 install 'macvim' --with-lua --with-luajit
 install 'vim' --with-lua --with-python3
+install 'packer'
 
 # SCM
 install 'git'
@@ -69,9 +64,12 @@ install 'apple-gcc42'
 
 # search engine
 install 'elasticsearch'
-# install 'groonga'
-# install 'solr'
+install 'brew-cask'
 
+# tap 'phinze/homebrew-cask'
+
+# casks
+# cask 'google-chrome'
 # nettle      pcre    readline
 #  cscope  geoip    gnutls    icu4c   libgcrypt libtasn1     pixman
 #  gettext     libgpg-error libtiff   pkg-config
