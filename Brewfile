@@ -1,8 +1,5 @@
-# vim: ft=ruby
-
 tap 'homebrew/science'
 tap 'homebrew/binary'
-
 
 # Programming
 install 'scala'
@@ -10,10 +7,13 @@ install 'sbt'
 install 'go'
 install 'lua'
 install 'ruby'
-install 'node'
+# install 'node' # managed nodebrew or nodeenv
 install 'python'
 install 'gfortran' # depends r
 install 'R'  # tap homebrew/science
+install 'r'
+install 'elixir'
+install 'phantomjs'
 
 # Tools
 install 'coreutils'
@@ -34,8 +34,11 @@ install 'growly'
 install 'qt'
 install 'graphviz'
 install 'macvim' --with-lua --with-luajit
-install 'vim' --with-lua --with-python3
+install 'vim' --with-lua --with-luajit
 install 'packer'
+install 'docker'
+install 'ansible'
+install 'erlang'
 
 # SCM
 install 'git'
@@ -57,23 +60,19 @@ install 'redis'
 # libs, build tool
 install 'libxml2'
 install 'libyaml'
+install 'readline'
 install 'libxslt'
 install 'autoconf'
 install 'automake'
 install 'apple-gcc42'
+install 'ruby-build'
+install 'cscope'
+install 'openssl'
 
 # search engine
 install 'elasticsearch'
+
+
 install 'brew-cask'
-
-# tap 'phinze/homebrew-cask'
-
 # casks
 # cask 'google-chrome'
-# nettle      pcre    readline
-#  cscope  geoip    gnutls    icu4c   libgcrypt libtasn1     pixman
-#  gettext     libgpg-error libtiff   pkg-config
-#  erlang-r16      intltool   libgsf libtool   mpfr    openssl     portaudio
-# cairo      fontconfig  isl   libiconv msgpack  openssl098      s3cmd
-# cloog      fontforge    jpeg   libksba    p11-kit     s3sync
-# cmake      freetype  glib    libevent   libmpc    neon    pango
