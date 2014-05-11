@@ -7,11 +7,10 @@ install 'sbt'
 install 'go'
 install 'lua'
 install 'ruby'
-# install 'node' # managed nodebrew or nodeenv
+install 'n' # managed nodejs
 install 'python'
 install 'gfortran' # depends r
-install 'R'  # tap homebrew/science
-install 'r'
+install 'r' # tap homebrew/science
 install 'elixir'
 install 'phantomjs'
 
