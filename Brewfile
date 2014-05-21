@@ -1,5 +1,39 @@
 tap 'homebrew/science'
 tap 'homebrew/binary'
+tap 'homebrew/dupes'
+
+# libs, build tool
+install 'gcc'
+install 'apple-gcc42'
+install 'libxml2'
+install 'libyaml'
+install 'readline'
+install 'libxslt'
+install 'autoconf'
+install 'automake'
+install 'ruby-build'
+install 'cscope'
+install 'openssl'
+
+# SCM
+install 'git'
+install 'git-flow'
+install 'hub'
+install 'tig'
+install 'subversion'
+install 'mercurial'
+
+# DB
+install 'mysql'
+install 'postgresql'
+install 'sqlite'
+install 'redis'
+install 'memcached'
+# install 'mongodb'
+# install 'groonga'
+
+# search engine
+install 'elasticsearch'
 
 # Programming
 install 'scala'
@@ -9,10 +43,10 @@ install 'lua'
 install 'ruby'
 install 'n' # managed nodejs
 install 'python'
-install 'gfortran' # depends r
-install 'r' # tap homebrew/science
-install 'elixir'
-install 'phantomjs'
+# install 'erlang'
+# install 'elixir'
+# install 'gfortran'
+# install 'r' # tap homebrew/science
 
 # Tools
 install 'coreutils'
@@ -32,46 +66,34 @@ install 'terminal-notifier'
 install 'growly'
 install 'qt'
 install 'graphviz'
+install 'phantomjs'
 install 'macvim' --with-lua --with-luajit
 install 'vim' --with-lua --with-luajit
 install 'packer'
 install 'docker'
 install 'ansible'
-install 'erlang'
 
-# SCM
-install 'git'
-install 'git-flow'
-install 'hub'
-install 'tig'
-install 'subversion'
-install 'mercurial'
+tap 'sanemat/font'
+install 'fontforge' --use-gcc
+install 'ricty'
+# cp -f /usr/local/Cellar/ricty/{version}/share/fonts/Ricty*.ttf ~/Library/Fonts/
+# fc-cache -vf
 
-
-# DB
-install 'mysql'
-install 'postgresql'
-install 'sqlite'
-install 'redis'
-# install 'mongodb'
-# install 'groonga'
-
-# libs, build tool
-install 'libxml2'
-install 'libyaml'
-install 'readline'
-install 'libxslt'
-install 'autoconf'
-install 'automake'
-install 'apple-gcc42'
-install 'ruby-build'
-install 'cscope'
-install 'openssl'
-
-# search engine
-install 'elasticsearch'
-
-
-install 'brew-cask'
 # casks
-# cask 'google-chrome'
+tap caskroom/cask
+install 'brew-cask'
+
+cask install 'google-chrome'
+cask install 'firefox'
+cask install 'launchbar'
+cask install 'keyremap4macbook'
+cask install 'dropbox'
+cask install 'skype'
+cask install 'virtualbox'
+cask install 'iterm2'
+cask install 'google-hangouts'
+cask install 'google-japanese-ime'
+cask install 'evernote'
+cask install 'sourcetree'
+
+# cask install
