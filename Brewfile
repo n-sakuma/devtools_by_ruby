@@ -14,6 +14,7 @@ install 'automake'
 install 'ruby-build'
 install 'cscope'
 install 'openssl'
+install 'icu4c'
 
 # SCM
 install 'git'
@@ -95,5 +96,6 @@ cask install 'google-hangouts'
 cask install 'google-japanese-ime'
 cask install 'evernote'
 cask install 'sourcetree'
+cask install 'vagrant'
 
 # cask install
