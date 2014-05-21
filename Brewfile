@@ -74,9 +74,9 @@ install 'packer'
 install 'docker'
 install 'ansible'
 
-tap 'sanemat/font'
-install 'fontforge' --use-gcc
-install 'ricty'
+# tap 'sanemat/font'
+# install 'fontforge' --use-gcc
+# install 'ricty'
 # cp -f /usr/local/Cellar/ricty/{version}/share/fonts/Ricty*.ttf ~/Library/Fonts/
 # fc-cache -vf
 
@@ -88,14 +88,25 @@ cask install 'google-chrome'
 cask install 'firefox'
 cask install 'launchbar'
 cask install 'keyremap4macbook'
+cask install 'pckeyboardhack'
 cask install 'dropbox'
 cask install 'skype'
 cask install 'virtualbox'
 cask install 'iterm2'
+# cask install 'intellij-idea'
+# cask install 'eclipse-ide'
 cask install 'google-hangouts'
-cask install 'google-japanese-ime'
 cask install 'evernote'
 cask install 'sourcetree'
 cask install 'vagrant'
-
-# cask install
+cask install 'coteditor'
+cask install 'adobe-reader'
+cask install 'freemind'
+cask install 'github'
+cask install 'gimp'
+cask install 'kobito'
+cask install 'the-unarchiver'
+cask install 'mactracker'
+cask install 'send-to-kindle'
+cask install 'kindle'
+cask install 'vlc'
