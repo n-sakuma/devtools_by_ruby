@@ -74,6 +74,9 @@ install 'packer'
 install 'docker'
 install 'ansible'
 
+# manage rubygems on Homebrew
+install brew-gem
+
 # tap 'sanemat/font'
 # install 'fontforge' --use-gcc
 # install 'ricty'
@@ -86,9 +89,9 @@ install 'brew-cask'
 
 cask install 'google-chrome'
 cask install 'firefox'
-cask install 'launchbar'
+# cask install 'launchbar'
 cask install 'keyremap4macbook'
-cask install 'pckeyboardhack'
+cask install 'seil'
 cask install 'dropbox'
 cask install 'skype'
 cask install 'virtualbox'
