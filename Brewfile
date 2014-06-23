@@ -72,6 +72,7 @@ install 'macvim' --with-lua --with-luajit
 install 'vim' --with-lua --with-luajit
 install 'packer'
 install 'docker'
+install 'boot2docker'
 install 'ansible'
 
 # manage rubygems on Homebrew
@@ -116,3 +117,4 @@ cask install 'vlc'
 cask install 'bittorrent-sync'
 cask install 'teleport'
 cask install 'libreoffice'
+cask install 'totalfinder'
