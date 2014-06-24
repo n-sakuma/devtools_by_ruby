@@ -1,6 +1,7 @@
 tap 'homebrew/science'
 tap 'homebrew/binary'
 tap 'homebrew/dupes'
+tap 'peco/peco'
 
 # libs, build tool
 install 'gcc'
@@ -74,6 +75,7 @@ install 'packer'
 install 'docker'
 install 'boot2docker'
 install 'ansible'
+install 'peco'
 
 # manage rubygems on Homebrew
 install 'brew-gem'
