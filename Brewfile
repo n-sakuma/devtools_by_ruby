@@ -76,7 +76,7 @@ install 'boot2docker'
 install 'ansible'
 
 # manage rubygems on Homebrew
-install brew-gem
+install 'brew-gem'
 
 # tap 'sanemat/font'
 # install 'fontforge' --use-gcc
@@ -90,7 +90,7 @@ install 'brew-cask'
 
 cask install 'google-chrome'
 cask install 'firefox'
-# cask install 'launchbar'
+cask install 'launchbar'
 cask install 'keyremap4macbook'
 cask install 'seil'
 cask install 'dropbox'
