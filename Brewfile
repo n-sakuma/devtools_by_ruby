@@ -52,6 +52,7 @@ install 'python'
 
 # Tools
 install 'coreutils'
+install 'findutils'
 install 'nkf'
 install 'tree'
 install 'pstree'
