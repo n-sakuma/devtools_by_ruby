@@ -77,6 +77,7 @@ install 'docker'
 install 'boot2docker'
 install 'ansible'
 install 'peco'
+install 'mosh'
 
 # manage rubygems on Homebrew
 install 'brew-gem'
