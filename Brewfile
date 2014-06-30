@@ -94,7 +94,6 @@ install 'brew-cask'
 
 cask install 'google-chrome'
 cask install 'firefox'
-cask install 'launchbar'
 cask install 'keyremap4macbook'
 cask install 'seil'
 cask install 'dropbox'
