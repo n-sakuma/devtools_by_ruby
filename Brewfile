@@ -95,8 +95,8 @@ install 'brew-cask'
 
 cask install 'google-chrome'
 cask install 'firefox'
-cask install 'keyremap4macbook'
-cask install 'seil'
+cask install 'karabiner'  # 旧 keyremap4macbook
+cask install 'seil'       # 旧 PCKeyboardHack
 cask install 'dropbox'
 cask install 'skype'
 cask install 'virtualbox'
