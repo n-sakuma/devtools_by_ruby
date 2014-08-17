@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<root>
+
+  <appdef>
+    <appname>MACVIM</appname>
+    <equal>org.vim.MacVim</equal>
+  </appdef>
+  <appdef>
+    <appname>VIMR</appname>
+    <equal>com.qvacua.VimR</equal>
+  </appdef>
+  <appdef>
+    <appname>ITERM2</appname>
+    <equal>com.googlecode.iterm2</equal>
+  </appdef>
+
+  <item>
+    <name>[Original]Change Command_L Key (Left Command)</name>
+    <item>
+      <name>Command_L to Control_L (except VI, Terminal, iTerm, Virtual Machine, RDC)</name>
+      <identifier>private.commandL2controlL_ex_vi_terminal_VM</identifier>
+      <not>MACVIM, VIMR, TERMINAL, ITERM2, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION</not>
+      <autogen>--KeyToKey-- KeyCode::COMMAND_L, KeyCode::CONTROL_L</autogen>
+    </item>
+  </item>
+
+  <item>
+    <name>[Original]Change Control_L Key (Left Control)</name>
+    <item>
+      <name>Control_L to Command_L (except MacVim, Terminal, ITERM2, Virtual Machine, RDC)</name>
+      <identifier>private.controlL2commandL_ex_vi_terminal_VM</identifier>
+      <not>MACVIM, VIMR, TERMINAL, ITERM2, VIRTUALMACHINE, REMOTEDESKTOPCONNECTION</not>
+      <autogen>--KeyToKey-- KeyCode::CONTROL_L, KeyCode::COMMAND_L</autogen>
+    </item>
+  </item>
+
+ </root>
