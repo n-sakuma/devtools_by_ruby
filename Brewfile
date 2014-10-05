@@ -31,7 +31,7 @@ install 'postgresql'
 install 'sqlite'
 install 'redis'
 install 'memcached'
-# install 'mongodb'
+install 'mongodb'
 # install 'groonga'
 
 # search engine
@@ -81,7 +81,7 @@ install 'mosh'
 install 'pandoc'
 
 # manage rubygems on Homebrew
-install 'brew-gem'
+# install 'brew-gem'
 
 # tap 'sanemat/font'
 # install 'fontforge' --use-gcc
@@ -98,12 +98,10 @@ cask install 'firefox'
 cask install 'karabiner'  # 旧 keyremap4macbook
 cask install 'seil'       # 旧 PCKeyboardHack
 cask install 'dropbox'
-cask install 'skype'
 cask install 'virtualbox'
 cask install 'iterm2'
 # cask install 'intellij-idea'
 # cask install 'eclipse-ide'
-cask install 'google-hangouts'
 cask install 'evernote'
 cask install 'sourcetree'
 cask install 'vagrant'
@@ -116,13 +114,21 @@ cask install 'kobito'
 cask install 'the-unarchiver'
 cask install 'mactracker'
 cask install 'send-to-kindle'
-cask install 'kindle'
-cask install 'vlc'
-cask install 'bittorrent-sync'
-cask install 'teleport'
 cask install 'libreoffice'
 cask install 'totalfinder'
 cask install 'spectacle'
 cask install 'appcleaner'
 # cask install 'vimr'
 cask install 'xquartz'
+
+# personal
+# cask install 'kindle'
+cask install 'calibre'
+# cask install 'vlc'
+# cask install 'bittorrent-sync'
+# cask install 'teleport'
+
+# work
+cask install 'hipchat'
+# cask install 'skype'
+# cask install 'google-hangouts'
