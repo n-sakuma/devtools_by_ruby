@@ -134,6 +134,7 @@ brew 'sanemat/font/ricty', args: ['with-powerline']
 # brew 'xvid'
 # brew 'neovim/neovim/neovim', args: ['HEAD']
 
+cask 'astah-community'
 cask 'appcleaner'
 cask 'dash'
 cask 'diskwave'
@@ -144,10 +145,12 @@ cask 'google-japanese-ime'
 cask 'hammerspoon'
 cask 'iterm2'
 cask 'libreoffice'
+cask 'macvim'
 cask 'microsoft-office'
 cask 'minecraft'
+cask 'sourcetree'
 cask 'totalfinder'
-cask 'macvim'
+cask 'skype'
 
 mas 'LINE', id: 539883307
 mas '1Password', id: 443987910
