@@ -2,6 +2,7 @@ tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'sanemat/font'
+tap 'yamayo/ec2ssh'
 # tap 'homebrew/binary'
 # tap 'homebrew/boneyard'
 # tap 'homebrew/dupes'
@@ -9,6 +10,49 @@ tap 'sanemat/font'
 # tap 'homebrew/services'
 # tap 'homebrew/versions'
 # tap 'neovim/neovim'
+
+mas 'Xcode', id: 497799835
+mas 'LINE', id: 539883307
+mas '1Password', id: 443987910
+mas 'Airmail 3', id: 918858936
+mas 'BetterSnapTool', id: 417375580
+mas 'CotEditor', id: 1024640650
+mas 'GarageBand', id: 682658836
+mas 'Keynote', id: 409183694
+mas 'Mactracker', id: 430255202
+mas 'Marked 2', id: 890031187
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'PopClip', id: 445189367
+mas 'Slack', id: 803453959
+mas 'Witch', id: 412485838
+mas 'Wunderlist', id: 410628904
+mas 'iMovie', id: 408981434
+
+cask 'appcleaner'
+cask 'astah-community'
+cask 'bettertouchtool'
+cask 'dash'
+cask 'diskwave'
+cask 'docker'
+cask 'dropbox'
+cask 'firefox'
+cask 'google-chrome'
+cask 'google-japanese-ime'
+# cask 'hammerspoon'
+cask 'iterm2'
+cask 'karabiner-elements'
+cask 'launchbar'
+cask 'libreoffice'
+cask 'macvim'
+cask 'microsoft-office'
+# cask 'minecraft'
+cask 'postman'
+# cask 'skype'
+cask 'sourcetree'
+# cask 'teleport'
+cask 'totalfinder'
+cask 'virtualbox'
 
 brew 'autoconf'
 brew 'automake'
@@ -19,6 +63,7 @@ brew 'coreutils'
 brew 'csshx'
 brew 'ctags'
 brew 'direnv'
+brew 'ec2ssh'
 brew 'elixir'
 brew 'erlang'
 brew 'findutils'
@@ -27,7 +72,7 @@ brew 'git'
 brew 'git-archive-all'
 brew 'git-lfs'
 brew 'go'
-brew 'growly'
+# brew 'growly'
 brew 'httpie'
 brew 'hub'
 brew 'jq'
@@ -57,6 +102,7 @@ brew 'qt'
 brew 'reattach-to-user-namespace'
 brew 'ruby'
 brew 'ruby-build'
+# brew 'rust' # NOTE: rustup でインストール
 brew 'sqlite'
 brew 'terminal-notifier'
 brew 'terraform'
@@ -64,7 +110,7 @@ brew 'the_silver_searcher'
 brew 'tig'
 brew 'tmux'
 brew 'tree'
-brew 'vim', args: ['with-lua', 'with-luajit']
+brew 'vim', args: ['with-luajit']
 brew 'wget'
 brew 'yarn'
 # brew 'zplug'
@@ -134,38 +180,3 @@ brew 'sanemat/font/ricty', args: ['with-powerline']
 # brew 'xvid'
 # brew 'neovim/neovim/neovim', args: ['HEAD']
 
-cask 'astah-community'
-cask 'appcleaner'
-cask 'dash'
-cask 'diskwave'
-cask 'docker'
-cask 'dropbox'
-cask 'google-chrome'
-cask 'google-japanese-ime'
-cask 'hammerspoon'
-cask 'iterm2'
-cask 'libreoffice'
-cask 'macvim'
-cask 'microsoft-office'
-cask 'minecraft'
-cask 'sourcetree'
-cask 'totalfinder'
-cask 'skype'
-
-mas 'LINE', id: 539883307
-mas '1Password', id: 443987910
-mas 'Airmail 3', id: 918858936
-mas 'BetterSnapTool', id: 417375580
-mas 'CotEditor', id: 1024640650
-mas 'GarageBand', id: 682658836
-mas 'Keynote', id: 409183694
-mas 'Mactracker', id: 430255202
-mas 'Marked 2', id: 890031187
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
-mas 'PopClip', id: 445189367
-mas 'Slack', id: 803453959
-mas 'Witch', id: 412485838
-mas 'Wunderlist', id: 410628904
-mas 'iMovie', id: 408981434
-mas 'Xcode', id: 497799835
