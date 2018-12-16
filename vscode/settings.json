@@ -1,4 +1,10 @@
 {
+    "go.gopath": "/Users/sakuma/work",
+    "go.inferGopath": true,
+    "vim.easymotion": true,
+    "vim.foldfix": true,
+    "vim.hlsearch": true,
+    "workbench.sideBar.location": "right",
     "files.autoSave": "afterDelay",
     "git.autofetch": true
 }
